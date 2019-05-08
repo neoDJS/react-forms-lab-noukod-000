@@ -17,7 +17,7 @@ class LoginForm extends React.Component {
   }
 
   handleSubmit = (e) => {
-    this.props.onSubmit(this.state)
+    this.props.onSubmit(this.state);
   }
 
   render() {
