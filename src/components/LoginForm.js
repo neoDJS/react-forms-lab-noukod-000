@@ -10,6 +10,12 @@ class LoginForm extends React.Component {
     };
   }
 
+  handleInputChange = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value
+    });
+  }
+
   render() {
     return (
       <form>
